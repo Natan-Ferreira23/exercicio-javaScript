@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 246, 243);
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    display: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input[type="button"] {
+    padding: 14px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    background-color: rgb(177, 177, 241);
+    color: rgb(245, 227, 22);
+    border: none;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(87, 87, 238);
+    color: rgb(243, 239, 196)
+}
